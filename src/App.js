@@ -58,7 +58,7 @@ function App() {
               
               <div className="grid grid-cols-2 space-x-4">
                 <div>
-                  <label htmlFor="ccnum">Credit card number</label>
+                  <label htmlFor="ccnum">Credit Card Number</label>
                   <input
                     type="number"
                     id="ccnum"
@@ -81,7 +81,7 @@ function App() {
 
               <div className="grid grid-cols-2 space-x-4">
                 <div >
-                  <label htmlFor="scode">Security code</label>
+                  <label htmlFor="scode">Security Code</label>
                   <input
                     type="number"
                     id="scode"
@@ -90,7 +90,7 @@ function App() {
                   />
                 </div>
                 <div>
-                  <label htmlFor="pcode">Postal code</label>
+                  <label htmlFor="pcode">Postal Code</label>
                   <input type="number" id="pcode" name="pcode" placeholder="10119" />
                 </div>
               </div>
