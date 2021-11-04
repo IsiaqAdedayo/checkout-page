@@ -130,7 +130,7 @@ function App() {
 
       <div className="py-10 xl:mx-11 flex flex-col-reverse md:flex-row justify-between items-center">
         <input type="submit" value="Complete Payment" className="bg-blue-900 h-16 text-white text-2xl rounded w-min px-9 md:px-16 " />
-        <h1 className="font-extrabold text-2xl pb-7 md:pb-0">TOTAL: ₦2556.64</h1>
+        <h1 className="font-extrabold text-2xl pb-7 md:pb-0">TOTAL: ₦2,556.64</h1>
       </div>
 
     </div>
