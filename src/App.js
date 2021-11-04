@@ -13,10 +13,10 @@ function App() {
       <div className="grid lg:grid-cols-2">
         <div className="hidden lg:block"></div>
         <div className="justify-between font-semibold text-2xl text-indigo-900 items-center hidden md:flex">
-          <h1>TRIPS</h1>
-          <h1>RECENTLY VIEWED</h1>
-          <h1>BOOKINGS</h1>
-          <i className="fa fa-user-circle fa-2x" style={{ color: "indigo" }}></i>
+          <h1 className="cursor-pointer">TRIPS</h1>
+          <h1 className="cursor-pointer">RECENTLY VIEWED</h1>
+          <h1 className="cursor-pointer">BOOKINGS</h1>
+          <i className="fa fa-user-circle fa-2x cursor-pointer" style={{ color: "indigo" }}></i>
         </div>
 
         <i className="fa fa-bars fa-2x md:hidden absolute top-10 right-10" onClick={handleClick} style={{ color: "indigo" }}></i>
@@ -48,10 +48,10 @@ function App() {
               <div className="grid  md:grid-cols-2 pt-8 pb-3 md:pt-0 md:pb-16">
                 <div className="hidden md:block"></div>
                 <div className="flex justify-between">
-                  <i className="fa fa-cc-visa fa-2x" style={{ color: "navy" }}></i>
-                  <i className="fa fa-cc-paypal fa-2x" style={{ color: "blue" }}></i>
-                  <i className="fa fa-cc-mastercard fa-2x" style={{ color: "red" }}></i>
-                  <i className="fa fa-cc-discover fa-2x" style={{ color: "orange" }}></i>
+                  <i className="fa fa-cc-visa fa-2x cursor-pointer" style={{ color: "navy" }}></i>
+                  <i className="fa fa-cc-paypal fa-2x cursor-pointer" style={{ color: "blue" }}></i>
+                  <i className="fa fa-cc-mastercard fa-2x cursor-pointer" style={{ color: "red" }}></i>
+                  <i className="fa fa-cc-discover fa-2x cursor-pointer" style={{ color: "orange" }}></i>
                 </div>
               </div>
 
@@ -107,7 +107,7 @@ function App() {
               <h1 className="text-sm md:text-base">Use this card for next time purchase</h1>
             </div>
 
-            <input type="submit" value="Add Card" className=" bg-blue-900 h-16 text-white text-xl rounded" />
+            <input type="submit" value="Add Card" className="cursor-pointer bg-blue-900 h-16 text-white text-xl rounded" />
           </form>
         </div>
         {/* </form> */}
@@ -129,7 +129,7 @@ function App() {
       </div>
 
       <div className="py-10 xl:mx-11 flex flex-col-reverse md:flex-row justify-between items-center">
-        <input type="submit" value="Complete Payment" className="bg-blue-900 h-16 text-white text-2xl rounded w-min px-9 md:px-16 " />
+        <input type="submit" value="Complete Payment" className="cursor-pointer bg-blue-900 h-16 text-white text-2xl rounded w-min px-9 md:px-16 " />
         <h1 className="font-extrabold text-2xl pb-7 md:pb-0">TOTAL: ₦2,556.64</h1>
       </div>
 
